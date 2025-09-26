@@ -31,7 +31,7 @@ conda create -n knowledgeable-r1 python=3.11 -y && conda activate knowledgeable-
 pip install -r requirements.txt
 ```
 ## Usage
-Download all dataset through [this link.](https://drive.google.com/file/d/1DZEVJuo6Q65yd0TJBwWF_wT-YNjIawC1/view?usp=drive_link) 
+Download all dataset through [this link.](https://drive.google.com/file/d/1Z8f45da26dgfi0_IrKoO7t-wdrvdS0HL/view?usp=drive_link) 
 Unzip it under the folder of knowledgeable-R1.
 
 ### Training
