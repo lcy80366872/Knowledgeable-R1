@@ -1,7 +1,7 @@
 <div align="center">
 
 # Resisting Contextual Interference in RAG via Parametric-Knowledge Reinforcement
-[![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.05154)  [![dataset](https://img.shields.io/badge/Dataset-yellow?style=for-the-badge&logo=huggingface&logoColor=000)](https://drive.google.com/file/d/1DZEVJuo6Q65yd0TJBwWF_wT-YNjIawC1/view?usp=drive_link) 
+[![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.05154)  [![dataset](https://img.shields.io/badge/Dataset-yellow?style=for-the-badge&logo=huggingface&logoColor=000)](https://drive.google.com/file/d/1Z8f45da26dgfi0_IrKoO7t-wdrvdS0HL/view?usp=drive_link) 
 
 </div>
 
@@ -27,6 +27,7 @@
 The runtime environment is in the requirements.txt
 so you can
 ``` bash
+conda create -n knowledgeable-r1 python=3.11 -y && conda activate knowledgeable-r1
 pip install -r requirements.txt
 ```
 ## Usage
