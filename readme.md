@@ -51,7 +51,7 @@ bash eval_query_with_rag.sh #for RAG
 bash eval_ours.sh
 python get_metric.py
 ```
-
+Our evaluation results can be found in [this link.](https://drive.google.com/file/d/1kFjOx5ESiACxayFhaoa0xWMadS5EwgC-/view?usp=drive_link)
 
 🎯 **Key Benefits**:
 - **No additional cost** — only the rollout strategy and RL objective is modified 
