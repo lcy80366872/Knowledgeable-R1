@@ -7,8 +7,8 @@
 
 
 ## ⚡ Updates
-* 05/06/2025: 🎉 We release our paper and codebase.
-* 09/26/2025: 🎉 We update our paper and code.
+* 2025/06/05: 🎉 We release our paper and codebase.
+* 2025/09/26: 🎉 We update our paper and code.
 
 ## 🚀 Introduction
 <p align="center">
