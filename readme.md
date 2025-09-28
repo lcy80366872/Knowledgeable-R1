@@ -15,7 +15,7 @@
   <img src="./images/introduction.png" width=100%/>
 </p>
 
-**Knowledgeable-R1** is an effective strategy for the RL training of LLMs that using joint sampling and define multi policy distributions in knowledge capability exploration to stimulate large language models’ self-integrated utilization of parametric and contextual knowledge. Experiments show that Knowledgeable-R1 significantly improves robustness and reasoning accuracy in knowledge conflict scenarios and general RAG scenarios, outperforming SOTA baselines by 23\% in counterfactual scenarios, and without degradation when the retrieved context is fully accurate.
+**Knowledgeable-R1** is a reinforcement-learning framework that explicitly trains large language models to use parametric knowledge (PK) to resist contextual interference while still exploiting external context when it is reliably helpful. We introduces a joint sampling scheme that generates paired responses with and without retrieval, and learns both local advantages (within each decoding regime) and global advantages under the same input to quantify when to ignore misleading context versus adopt it. We employ an asymmetric advantage transformation that amplifies exploratory behaviors toward parametric knowledge.  Experiments show that Knowledgeable-R1 significantly improves robustness and reasoning accuracy in knowledge conflict scenarios and general RAG scenarios, outperforming SOTA baselines by 23\% in counterfactual scenarios, and without degradation when the retrieved context is fully accurate.
 
 🎯 **Key Benefits**:
 - **No additional cost** — only the rollout strategy and RL objective is modified 
