@@ -55,7 +55,7 @@ Our evaluation results can be found in [this link.](https://drive.google.com/fil
 
 🎯 **Key Benefits**:
 - **No additional cost** — only the rollout strategy and RL objective is modified 
-- **Easy to adopt** — no additional components or complex multiple prompt pipelines are required in application  
+- **Easy to adopt** — no additional components or complex agent pipelines are required in application  
 - **Superior generalization** — Knowledgeable-R1 significantly enhances robustness and reasoning accuracy in both parameters and contextual conflict tasks and general RAG tasks
 
 
