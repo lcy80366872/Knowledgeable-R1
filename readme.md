@@ -63,9 +63,9 @@ Our evaluation results can be found in [this link.](https://drive.google.com/fil
 ## Citation
 If you find our works useful for your research, please consider citing:
 ```bibtex
-@misc{lin2025knowledgeabler1policyoptimizationknowledge,
-      title={Knowledgeable-r1: Policy Optimization for Knowledge Exploration in Retrieval-Augmented Generation}, 
-      author={Chenyu Lin and Yilin Wen and Du Su and Fei Sun and Muhan Chen and Chenfu Bao and Zhonghou Lv},
+@misc{lin2025resistingcontextualinterferencerag,
+      title={Resisting Contextual Interference in RAG via Parametric-Knowledge Reinforcement}, 
+      author={Chenyu Lin and Yilin Wen and Du Su and Hexiang Tan and Fei Sun and Muhan Chen and Chenfu Bao and Zhonghou Lyu},
       year={2025},
       eprint={2506.05154},
       archivePrefix={arXiv},
