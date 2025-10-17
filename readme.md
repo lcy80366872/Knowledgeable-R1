@@ -29,7 +29,7 @@ so you can
 ``` bash
 conda create -n knowledgeable-r1 python=3.11 -y && conda activate knowledgeable-r1
 pip install -r requirements.txt
-```
+pip install https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.3/flash_attn-2.7.3+cu12torch2.5cxx11abiFALSE-cp311-cp311-linux_x86_64.whl```
 ## Usage
 Download all dataset through [this link.](https://drive.google.com/file/d/1Z8f45da26dgfi0_IrKoO7t-wdrvdS0HL/view?usp=drive_link) 
 Unzip it under the folder of knowledgeable-R1.
