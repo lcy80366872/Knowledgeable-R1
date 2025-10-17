@@ -3,6 +3,8 @@ codetiming
 datasets
 #flash-attn>=2.4.3
 liger-kernel
+seaborn
+scipy
 mathruler
 numpy
 omegaconf
@@ -23,3 +25,4 @@ torchvision==0.20.1
 torchaudio==2.5.1
 numpy==1.26.4
 swanlab
+matplotlib
