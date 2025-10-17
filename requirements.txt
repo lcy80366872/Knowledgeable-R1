@@ -10,6 +10,7 @@ numpy
 omegaconf
 pandas
 peft
+openpyxl
 pillow
 pyarrow>=15.0.0
 pylatexenc
