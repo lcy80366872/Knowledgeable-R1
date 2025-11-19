@@ -1100,6 +1100,8 @@ class RayPPOTrainer:
                             old_log_prob_pk = self.actor_rollout_wg.compute_log_prob(batch_pk)
                             old_log_prob_pk.batch["old_log_probs_pk"] = old_log_prob_pk.batch["old_log_probs"]
                             old_log_prob_pk.batch.pop("old_log_probs")
+                            if hasattr(batch.batch, 'lock_'):
+                                batch.batch.unlock_()
                             batch = batch.union(old_log_prob_pk)
                             
                             
