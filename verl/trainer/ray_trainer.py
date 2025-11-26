@@ -549,7 +549,7 @@ def compute_advantage(data: DataProto, adv_estimator: AdvantageEstimator, gamma=
             data.batch["ck_reward"] = torch.tensor(ck_rewards_avg)
             data.batch["pk_reward"] = torch.tensor(pk_rewards_avg)
             data.batch["beta"] = torch.tensor(beta)
-            advantages =  global_advantages
+            
         else:
             advantages, returns = core_algos.compute_grpo_outcome_advantage(
                 token_level_rewards=token_level_rewards, eos_mask=response_mask, index=index
