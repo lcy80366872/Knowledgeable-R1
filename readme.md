@@ -9,7 +9,7 @@
 ## ⚡ Updates
 * 2025/06/05: 🎉 We release our paper and codebase.
 * 2025/09/26: 🎉 We update our paper and code.
-
+* 2025/11/26: 🎉 Our paper was accepted by ICLR 2026.
 ## 🚀 Introduction
 <p align="center">
   <img src="./images/introduction.png" width=100%/>
